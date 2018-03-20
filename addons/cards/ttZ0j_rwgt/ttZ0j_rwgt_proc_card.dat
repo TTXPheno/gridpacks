@@ -38,6 +38,6 @@ define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
 define w = w+ w-
 
-generate p p > t t~ l+ l- / h NP=1 
+generate p p > t t~ l+ l- / h DIM6<=1 
 
 output ttZ0j_rwgt 
