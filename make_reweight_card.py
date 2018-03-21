@@ -42,9 +42,9 @@ def make_reweight_card( filename, reweights ):
         for reweight in reweights:
             name = "_".join( [ ("%s_%8.6f"%( reweight[2*i], reweight[2*i+1] )).rstrip('0') for i in range(len(reweight)/2) ] ) 
             name = name.replace('.','p').replace('-','m')
-            out_file.write( "launch --rwgt_name=%s\n"%name )
             for i in range(len(reweight)/2):
                 out_file.write("set %s %8.6f\n"%( reweight[2*i], reweight[2*i+1]))
+            out_file.write( "launch --rwgt_name=%s\n"%name )
             out_file.write('\n')
 
 param_points = recurse( coupling_list ) if len(coupling_list)>0 else [[]]
