@@ -51,6 +51,8 @@ def make_reweight_card( filename, reweights ):
         for reweight in reweights:
             name = getWeightName( reweight )
             out_file.write( "launch --rwgt_name=%s\n"%name )
+            name = "_".join( [ ("%s_%8.6f"%( reweight[2*i], reweight[2*i+1] )).rstrip('0') for i in range(len(reweight)/2) ] ) 
+            name = name.replace('.','p').replace('-','m')
             for i in range(len(reweight)/2):
                 out_file.write("set %s %8.6f\n"%( reweight[2*i], reweight[2*i+1]))
             out_file.write('\n')

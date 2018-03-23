@@ -1,4 +1,4 @@
-# reweight card file created with https://github.com/schoef/gridpacks on 2018-03-23 13:01:36
+# reweight card file created with https://github.com/schoef/gridpacks on 2018-03-23 13:05:10
 # Command line arguments: make_reweight_card.py --couplings ctZ -2 -1 0 1 2 ctZI -2 -1 0 1 2 cpQM -10 0 10 20 30 cpt -20 -10 0 10 20 --overwrite
 change rwgt_dir rwgt
 
