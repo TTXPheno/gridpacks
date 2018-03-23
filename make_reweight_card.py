@@ -3,6 +3,7 @@
 # Standard imports
 import argparse
 import os
+import sys
 
 argParser = argparse.ArgumentParser(description = "Argument parser")
 argParser.add_argument('--couplings',   action='store',         default=[],         nargs='*',  type = str, help="Give a list of the non-zero couplings with values, e.g. NAME1 VALUE1 NAME2 VALUE2")
@@ -34,23 +35,43 @@ def recurse( c_list ):
     else:
         return pairs
 
+def getWeightName( reweight ):
+    name = "_".join( [ ("%s_%8.6f"%( reweight[2*i], reweight[2*i+1] )).rstrip('0') for i in range(len(reweight)/2) ] ) 
+    return name.replace('.','p').replace('-','m')
+
 def make_reweight_card( filename, reweights ):
     import datetime
+    if not filename.endswith('.dat'):
+        raise ValueError( "filename does not end with .dat" )
     with open(filename, "w") as out_file:
         out_file.write("# reweight card file created with https://github.com/schoef/gridpacks on %s\n" % datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+        out_file.write("# Command line arguments: "+" ".join(sys.argv)+'\n')
         out_file.write("change rwgt_dir rwgt\n\n")
+        out_file.write( "launch --rwgt_name=dummy # Name of first argument seems to be rwgt_1. Add dummy to fix it.\n\n" )
         for reweight in reweights:
-            name = "_".join( [ ("%s_%8.6f"%( reweight[2*i], reweight[2*i+1] )).rstrip('0') for i in range(len(reweight)/2) ] ) 
-            name = name.replace('.','p').replace('-','m')
+            name = getWeightName( reweight )
             out_file.write( "launch --rwgt_name=%s\n"%name )
             for i in range(len(reweight)/2):
                 out_file.write("set %s %8.6f\n"%( reweight[2*i], reweight[2*i+1]))
             out_file.write('\n')
+    print "Written %i weights to file:"%len(reweights), filename 
+
+def make_reweight_pkl( filename, reweights ):
+    import pickle
+    pklfilename = filename.replace('.dat','.pkl')
+    rw_dict = {}
+    for i_reweight, reweight in enumerate(reweights):
+        name = getWeightName( reweight )
+        #rw_dict[i_reweight] = name 
+        rw_dict[name] = i_reweight 
+    pickle.dump(rw_dict, file(pklfilename,'w')) 
+    print "Written pkl file for enumeration (%i weights):"%len(reweights), pklfilename
 
 param_points = recurse( coupling_list ) if len(coupling_list)>0 else [[]]
 
 if not os.path.exists( args.filename ) or args.overwrite:
     make_reweight_card( args.filename, param_points )
-    print "Written", args.filename
+    make_reweight_pkl( args.filename, param_points )
+
 elif os.path.exists( args.filename ):
     print "Found",args.filename, "do nothing." 
