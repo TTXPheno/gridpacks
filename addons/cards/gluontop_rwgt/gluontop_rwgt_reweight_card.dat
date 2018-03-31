@@ -2,6 +2,8 @@
 # Command line arguments: make_reweight_card.py --couplings ctZ -2 -1 0 1 2 ctZI -2 -1 0 1 2 cpQM -10 0 10 20 30 cpt -20 -10 0 10 20 --overwrite
 change rwgt_dir rwgt
 
+launch --rwgt_name=dummy # Name of first argument seems to be rwgt_1. Add dummy to fix it.
+
 launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_m10p_cpt_m20p
 set ctZ -2.000000
 set ctZI -2.000000
