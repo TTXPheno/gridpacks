@@ -4,6 +4,7 @@
 import argparse
 import os
 import sys
+import itertools
 
 argParser = argparse.ArgumentParser(description = "Argument parser")
 argParser.add_argument('--couplings',   action='store',         default=[],         nargs='*',  type = str, help="Give a list of the non-zero couplings with values, e.g. NAME1 VALUE1 NAME2 VALUE2")
@@ -11,19 +12,6 @@ argParser.add_argument('--filename',    action='store',         default="./rewei
 argParser.add_argument('--overwrite',   action='store_true',    help="Overwrite exisiting x-sec calculation and gridpack")
 args = argParser.parse_args()
 
-
-print "Coupling arguments: %r" % args.couplings
-
-# make a list of the form [ ['c1', v1, v2, ...], ['c2', ...] ] so we can recurse in the couplings c1,c2,... 
-coupling_list = []
-for a in args.couplings:
-    try:
-        val = float(a)
-    except ValueError:
-        coupling_list.append( [ a, [] ] )
-        val = None
-
-    if val is not None: coupling_list[-1][1].append( float(a) )
 
 # recursively make a for loop over all couplings
 def recurse( c_list ):
@@ -69,7 +57,46 @@ def make_reweight_pkl( filename, reweights ):
     pickle.dump(rw_dict, file(pklfilename,'w')) 
     print "Written pkl file for enumeration (%i weights):"%len(reweights), pklfilename
 
-param_points = recurse( coupling_list ) if len(coupling_list)>0 else [[]]
+def isA( a, type):
+    try:
+        type(a)
+    except ValueError:
+        return False
+    return True
+
+print "Coupling arguments: %r" % args.couplings
+
+# make a list of the form [ ['c1', v1, v2, ...], ['c2', ...] ] so we can recurse in the couplings c1,c2,... 
+coupling_list = []
+if len(args.couplings)>0 and isA( args.couplings[0], int ):
+    # if 'N_int X a Y b Z c' produce all combinations with replacements up to order N of the form X=n_x*a, Y=n_y*b such that Sum(n_i)<=N
+    param_points = []
+    order = int(args.couplings[0])
+    vars      = args.couplings[1:][::2] 
+    stepsize  = map( float, args.couplings[1:][1::2] )
+    assert len(vars)==len(stepsize), "Number of variables and number of stepsizes not the same. Got %i and %i, respectively." %( len(vars), len(stepsize))
+    for order_ in range(0, order+1):
+        for comb in itertools.combinations_with_replacement(range(len(vars)), order_):
+            param_point = tuple()
+            for i_var, var in enumerate(vars):
+                count = comb.count(i_var)
+                #if count>0:
+                param_point+=(var, count*stepsize[i_var])
+            param_points.append( param_point )
+elif len(args.couplings)>0:
+
+    # if 'X_string a b c Y e f g Z ...' -> produce all combinations (X=a, Y=e, Z=...) ... (X=c,Y=g,Z=...)
+    for a in args.couplings:
+
+        if isA(a, float ):
+            val = float(a) 
+        else:
+            coupling_list.append( [ a, [] ] )
+            val = None
+        if val is not None: coupling_list[-1][1].append( val )
+    param_points = recurse( coupling_list ) if len(coupling_list)>0 else [[]]
+else:
+    param_points = [[]]
 
 if not os.path.exists( args.filename ) or args.overwrite:
     make_reweight_card( args.filename, param_points )
