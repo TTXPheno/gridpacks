@@ -29,7 +29,7 @@ declare -a polyorders=(2 3)
 lxplus='2nw'
 
 # dim6 operators and stepsize as string <-- improve input later
-operators='ctZ 1 ctZI 1'
+operators='cpQM 1 cpt 1 ctW 1 ctWI 1 ctZ 1 ctZI 1 ctG 1 ctGI 1'
 
 # file addons
 reweight_addon='_rwgt'
@@ -49,12 +49,13 @@ do
    # run all states
    for state in "${states[@]}"
    do
-      mkdir gridpacks_$state
-      cd gridpacks_$state
+      mkdir $state
+      cd $state
 
 #      git clone https://github.com/TTXPheno/gridpacks.git
+      cp -rf ../../../gridpacks ./
 
-      cp -rf ../../../gridpacks/* ./
+      cd gridpacks
 
       # create reweight card
       python make_reweight_card.py --overwrite --couplings $polyorder $operators
@@ -66,9 +67,9 @@ do
       mv reweight_card.dat $fullpath/$filename
 
       # submit job to lxplus
-#      ./submit_gridpack_generation.sh 30000 30000 $lxplus $dirname $fullpath $lxplus
+      ./submit_gridpack_generation.sh 30000 30000 $lxplus $dirname $fullpath $lxplus
 
-      cd ..
+      cd ../..
    done
 
    cd ..
