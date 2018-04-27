@@ -1,0 +1,3756 @@
+# reweight card file created with https://github.com/schoef/gridpacks on 2018-03-23 13:05:10
+# Command line arguments: make_reweight_card.py --couplings ctZ -2 -1 0 1 2 ctZI -2 -1 0 1 2 cpQM -10 0 10 20 30 cpt -20 -10 0 10 20 --overwrite
+change rwgt_dir rwgt
+
+launch --rwgt_name=dummy # Name of first argument seems to be rwgt_1. Add dummy to fix it.
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_m10p_cpt_m20p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_m10p_cpt_m20p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_m10p_cpt_m20p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_m10p_cpt_m20p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_m10p_cpt_m20p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_m10p_cpt_m20p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_m10p_cpt_m20p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_m10p_cpt_m20p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_m10p_cpt_m20p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_m10p_cpt_m20p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_m10p_cpt_m20p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_m10p_cpt_m20p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_m10p_cpt_m20p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_m10p_cpt_m20p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_m10p_cpt_m20p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_m10p_cpt_m20p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_m10p_cpt_m20p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_m10p_cpt_m20p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_m10p_cpt_m20p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_m10p_cpt_m20p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_m10p_cpt_m20p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_m10p_cpt_m20p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_m10p_cpt_m20p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_m10p_cpt_m20p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_m10p_cpt_m20p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_0p_cpt_m20p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_0p_cpt_m20p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_0p_cpt_m20p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_0p_cpt_m20p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_0p_cpt_m20p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_0p_cpt_m20p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_0p_cpt_m20p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_0p_cpt_m20p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_0p_cpt_m20p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_0p_cpt_m20p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_0p_cpt_m20p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_0p_cpt_m20p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_0p_cpt_m20p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_0p_cpt_m20p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_0p_cpt_m20p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_0p_cpt_m20p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_0p_cpt_m20p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_0p_cpt_m20p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_0p_cpt_m20p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_0p_cpt_m20p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_0p_cpt_m20p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_0p_cpt_m20p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_0p_cpt_m20p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_0p_cpt_m20p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_0p_cpt_m20p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_10p_cpt_m20p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_10p_cpt_m20p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_10p_cpt_m20p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_10p_cpt_m20p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_10p_cpt_m20p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_10p_cpt_m20p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_10p_cpt_m20p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_10p_cpt_m20p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_10p_cpt_m20p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_10p_cpt_m20p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_10p_cpt_m20p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_10p_cpt_m20p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_10p_cpt_m20p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_10p_cpt_m20p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_10p_cpt_m20p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_10p_cpt_m20p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_10p_cpt_m20p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_10p_cpt_m20p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_10p_cpt_m20p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_10p_cpt_m20p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_10p_cpt_m20p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_10p_cpt_m20p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_10p_cpt_m20p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_10p_cpt_m20p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_10p_cpt_m20p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_20p_cpt_m20p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_20p_cpt_m20p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_20p_cpt_m20p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_20p_cpt_m20p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_20p_cpt_m20p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_20p_cpt_m20p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_20p_cpt_m20p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_20p_cpt_m20p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_20p_cpt_m20p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_20p_cpt_m20p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_20p_cpt_m20p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_20p_cpt_m20p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_20p_cpt_m20p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_20p_cpt_m20p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_20p_cpt_m20p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_20p_cpt_m20p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_20p_cpt_m20p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_20p_cpt_m20p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_20p_cpt_m20p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_20p_cpt_m20p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_20p_cpt_m20p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_20p_cpt_m20p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_20p_cpt_m20p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_20p_cpt_m20p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_20p_cpt_m20p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_30p_cpt_m20p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_30p_cpt_m20p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_30p_cpt_m20p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_30p_cpt_m20p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_30p_cpt_m20p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_30p_cpt_m20p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_30p_cpt_m20p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_30p_cpt_m20p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_30p_cpt_m20p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_30p_cpt_m20p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_30p_cpt_m20p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_30p_cpt_m20p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_30p_cpt_m20p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_30p_cpt_m20p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_30p_cpt_m20p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_30p_cpt_m20p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_30p_cpt_m20p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_30p_cpt_m20p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_30p_cpt_m20p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_30p_cpt_m20p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_30p_cpt_m20p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_30p_cpt_m20p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_30p_cpt_m20p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_30p_cpt_m20p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_30p_cpt_m20p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt -20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_m10p_cpt_m10p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_m10p_cpt_m10p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_m10p_cpt_m10p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_m10p_cpt_m10p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_m10p_cpt_m10p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_m10p_cpt_m10p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_m10p_cpt_m10p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_m10p_cpt_m10p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_m10p_cpt_m10p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_m10p_cpt_m10p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_m10p_cpt_m10p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_m10p_cpt_m10p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_m10p_cpt_m10p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_m10p_cpt_m10p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_m10p_cpt_m10p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_m10p_cpt_m10p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_m10p_cpt_m10p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_m10p_cpt_m10p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_m10p_cpt_m10p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_m10p_cpt_m10p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_m10p_cpt_m10p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_m10p_cpt_m10p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_m10p_cpt_m10p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_m10p_cpt_m10p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_m10p_cpt_m10p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_0p_cpt_m10p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_0p_cpt_m10p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_0p_cpt_m10p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_0p_cpt_m10p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_0p_cpt_m10p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_0p_cpt_m10p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_0p_cpt_m10p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_0p_cpt_m10p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_0p_cpt_m10p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_0p_cpt_m10p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_0p_cpt_m10p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_0p_cpt_m10p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_0p_cpt_m10p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_0p_cpt_m10p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_0p_cpt_m10p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_0p_cpt_m10p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_0p_cpt_m10p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_0p_cpt_m10p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_0p_cpt_m10p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_0p_cpt_m10p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_0p_cpt_m10p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_0p_cpt_m10p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_0p_cpt_m10p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_0p_cpt_m10p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_0p_cpt_m10p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_10p_cpt_m10p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_10p_cpt_m10p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_10p_cpt_m10p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_10p_cpt_m10p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_10p_cpt_m10p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_10p_cpt_m10p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_10p_cpt_m10p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_10p_cpt_m10p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_10p_cpt_m10p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_10p_cpt_m10p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_10p_cpt_m10p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_10p_cpt_m10p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_10p_cpt_m10p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_10p_cpt_m10p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_10p_cpt_m10p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_10p_cpt_m10p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_10p_cpt_m10p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_10p_cpt_m10p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_10p_cpt_m10p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_10p_cpt_m10p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_10p_cpt_m10p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_10p_cpt_m10p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_10p_cpt_m10p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_10p_cpt_m10p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_10p_cpt_m10p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_20p_cpt_m10p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_20p_cpt_m10p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_20p_cpt_m10p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_20p_cpt_m10p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_20p_cpt_m10p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_20p_cpt_m10p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_20p_cpt_m10p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_20p_cpt_m10p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_20p_cpt_m10p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_20p_cpt_m10p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_20p_cpt_m10p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_20p_cpt_m10p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_20p_cpt_m10p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_20p_cpt_m10p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_20p_cpt_m10p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_20p_cpt_m10p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_20p_cpt_m10p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_20p_cpt_m10p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_20p_cpt_m10p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_20p_cpt_m10p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_20p_cpt_m10p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_20p_cpt_m10p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_20p_cpt_m10p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_20p_cpt_m10p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_20p_cpt_m10p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_30p_cpt_m10p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_30p_cpt_m10p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_30p_cpt_m10p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_30p_cpt_m10p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_30p_cpt_m10p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_30p_cpt_m10p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_30p_cpt_m10p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_30p_cpt_m10p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_30p_cpt_m10p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_30p_cpt_m10p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_30p_cpt_m10p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_30p_cpt_m10p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_30p_cpt_m10p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_30p_cpt_m10p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_30p_cpt_m10p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_30p_cpt_m10p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_30p_cpt_m10p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_30p_cpt_m10p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_30p_cpt_m10p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_30p_cpt_m10p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_30p_cpt_m10p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_30p_cpt_m10p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_30p_cpt_m10p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_30p_cpt_m10p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_30p_cpt_m10p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt -10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_m10p_cpt_0p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_m10p_cpt_0p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_m10p_cpt_0p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_m10p_cpt_0p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_m10p_cpt_0p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_m10p_cpt_0p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_m10p_cpt_0p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_m10p_cpt_0p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_m10p_cpt_0p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_m10p_cpt_0p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_m10p_cpt_0p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_m10p_cpt_0p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_m10p_cpt_0p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_m10p_cpt_0p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_m10p_cpt_0p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_m10p_cpt_0p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_m10p_cpt_0p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_m10p_cpt_0p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_m10p_cpt_0p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_m10p_cpt_0p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_m10p_cpt_0p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_m10p_cpt_0p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_m10p_cpt_0p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_m10p_cpt_0p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_m10p_cpt_0p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_0p_cpt_0p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_0p_cpt_0p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_0p_cpt_0p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_0p_cpt_0p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_0p_cpt_0p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_0p_cpt_0p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_0p_cpt_0p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_0p_cpt_0p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_0p_cpt_0p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_0p_cpt_0p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_0p_cpt_0p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_0p_cpt_0p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_0p_cpt_0p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_0p_cpt_0p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_0p_cpt_0p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_0p_cpt_0p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_0p_cpt_0p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_0p_cpt_0p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_0p_cpt_0p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_0p_cpt_0p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_0p_cpt_0p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_0p_cpt_0p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_0p_cpt_0p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_0p_cpt_0p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_0p_cpt_0p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_10p_cpt_0p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_10p_cpt_0p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_10p_cpt_0p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_10p_cpt_0p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_10p_cpt_0p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_10p_cpt_0p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_10p_cpt_0p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_10p_cpt_0p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_10p_cpt_0p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_10p_cpt_0p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_10p_cpt_0p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_10p_cpt_0p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_10p_cpt_0p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_10p_cpt_0p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_10p_cpt_0p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_10p_cpt_0p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_10p_cpt_0p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_10p_cpt_0p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_10p_cpt_0p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_10p_cpt_0p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_10p_cpt_0p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_10p_cpt_0p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_10p_cpt_0p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_10p_cpt_0p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_10p_cpt_0p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_20p_cpt_0p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_20p_cpt_0p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_20p_cpt_0p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_20p_cpt_0p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_20p_cpt_0p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_20p_cpt_0p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_20p_cpt_0p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_20p_cpt_0p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_20p_cpt_0p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_20p_cpt_0p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_20p_cpt_0p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_20p_cpt_0p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_20p_cpt_0p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_20p_cpt_0p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_20p_cpt_0p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_20p_cpt_0p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_20p_cpt_0p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_20p_cpt_0p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_20p_cpt_0p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_20p_cpt_0p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_20p_cpt_0p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_20p_cpt_0p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_20p_cpt_0p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_20p_cpt_0p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_20p_cpt_0p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_30p_cpt_0p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_30p_cpt_0p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_30p_cpt_0p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_30p_cpt_0p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_30p_cpt_0p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_30p_cpt_0p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_30p_cpt_0p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_30p_cpt_0p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_30p_cpt_0p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_30p_cpt_0p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_30p_cpt_0p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_30p_cpt_0p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_30p_cpt_0p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_30p_cpt_0p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_30p_cpt_0p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_30p_cpt_0p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_30p_cpt_0p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_30p_cpt_0p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_30p_cpt_0p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_30p_cpt_0p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_30p_cpt_0p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_30p_cpt_0p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_30p_cpt_0p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_30p_cpt_0p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_30p_cpt_0p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt 0.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_m10p_cpt_10p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_m10p_cpt_10p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_m10p_cpt_10p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_m10p_cpt_10p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_m10p_cpt_10p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_m10p_cpt_10p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_m10p_cpt_10p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_m10p_cpt_10p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_m10p_cpt_10p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_m10p_cpt_10p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_m10p_cpt_10p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_m10p_cpt_10p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_m10p_cpt_10p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_m10p_cpt_10p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_m10p_cpt_10p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_m10p_cpt_10p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_m10p_cpt_10p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_m10p_cpt_10p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_m10p_cpt_10p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_m10p_cpt_10p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_m10p_cpt_10p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_m10p_cpt_10p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_m10p_cpt_10p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_m10p_cpt_10p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_m10p_cpt_10p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_0p_cpt_10p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_0p_cpt_10p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_0p_cpt_10p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_0p_cpt_10p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_0p_cpt_10p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_0p_cpt_10p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_0p_cpt_10p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_0p_cpt_10p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_0p_cpt_10p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_0p_cpt_10p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_0p_cpt_10p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_0p_cpt_10p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_0p_cpt_10p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_0p_cpt_10p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_0p_cpt_10p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_0p_cpt_10p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_0p_cpt_10p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_0p_cpt_10p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_0p_cpt_10p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_0p_cpt_10p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_0p_cpt_10p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_0p_cpt_10p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_0p_cpt_10p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_0p_cpt_10p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_0p_cpt_10p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_10p_cpt_10p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_10p_cpt_10p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_10p_cpt_10p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_10p_cpt_10p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_10p_cpt_10p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_10p_cpt_10p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_10p_cpt_10p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_10p_cpt_10p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_10p_cpt_10p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_10p_cpt_10p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_10p_cpt_10p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_10p_cpt_10p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_10p_cpt_10p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_10p_cpt_10p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_10p_cpt_10p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_10p_cpt_10p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_10p_cpt_10p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_10p_cpt_10p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_10p_cpt_10p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_10p_cpt_10p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_10p_cpt_10p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_10p_cpt_10p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_10p_cpt_10p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_10p_cpt_10p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_10p_cpt_10p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_20p_cpt_10p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_20p_cpt_10p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_20p_cpt_10p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_20p_cpt_10p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_20p_cpt_10p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_20p_cpt_10p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_20p_cpt_10p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_20p_cpt_10p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_20p_cpt_10p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_20p_cpt_10p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_20p_cpt_10p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_20p_cpt_10p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_20p_cpt_10p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_20p_cpt_10p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_20p_cpt_10p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_20p_cpt_10p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_20p_cpt_10p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_20p_cpt_10p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_20p_cpt_10p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_20p_cpt_10p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_20p_cpt_10p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_20p_cpt_10p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_20p_cpt_10p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_20p_cpt_10p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_20p_cpt_10p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_30p_cpt_10p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_30p_cpt_10p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_30p_cpt_10p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_30p_cpt_10p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_30p_cpt_10p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_30p_cpt_10p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_30p_cpt_10p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_30p_cpt_10p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_30p_cpt_10p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_30p_cpt_10p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_30p_cpt_10p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_30p_cpt_10p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_30p_cpt_10p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_30p_cpt_10p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_30p_cpt_10p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_30p_cpt_10p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_30p_cpt_10p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_30p_cpt_10p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_30p_cpt_10p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_30p_cpt_10p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_30p_cpt_10p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_30p_cpt_10p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_30p_cpt_10p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_30p_cpt_10p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_30p_cpt_10p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt 10.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_m10p_cpt_20p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_m10p_cpt_20p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_m10p_cpt_20p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_m10p_cpt_20p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_m10p_cpt_20p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_m10p_cpt_20p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_m10p_cpt_20p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_m10p_cpt_20p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_m10p_cpt_20p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_m10p_cpt_20p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_m10p_cpt_20p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_m10p_cpt_20p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_m10p_cpt_20p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_m10p_cpt_20p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_m10p_cpt_20p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_m10p_cpt_20p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_m10p_cpt_20p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_m10p_cpt_20p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_m10p_cpt_20p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_m10p_cpt_20p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_m10p_cpt_20p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_m10p_cpt_20p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_m10p_cpt_20p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_m10p_cpt_20p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_m10p_cpt_20p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM -10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_0p_cpt_20p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_0p_cpt_20p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_0p_cpt_20p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_0p_cpt_20p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_0p_cpt_20p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_0p_cpt_20p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_0p_cpt_20p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_0p_cpt_20p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_0p_cpt_20p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_0p_cpt_20p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_0p_cpt_20p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_0p_cpt_20p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_0p_cpt_20p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_0p_cpt_20p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_0p_cpt_20p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_0p_cpt_20p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_0p_cpt_20p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_0p_cpt_20p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_0p_cpt_20p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_0p_cpt_20p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_0p_cpt_20p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_0p_cpt_20p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_0p_cpt_20p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_0p_cpt_20p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_0p_cpt_20p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM 0.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_10p_cpt_20p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_10p_cpt_20p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_10p_cpt_20p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_10p_cpt_20p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_10p_cpt_20p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_10p_cpt_20p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_10p_cpt_20p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_10p_cpt_20p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_10p_cpt_20p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_10p_cpt_20p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_10p_cpt_20p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_10p_cpt_20p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_10p_cpt_20p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_10p_cpt_20p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_10p_cpt_20p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_10p_cpt_20p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_10p_cpt_20p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_10p_cpt_20p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_10p_cpt_20p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_10p_cpt_20p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_10p_cpt_20p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_10p_cpt_20p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_10p_cpt_20p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_10p_cpt_20p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_10p_cpt_20p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM 10.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_20p_cpt_20p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_20p_cpt_20p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_20p_cpt_20p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_20p_cpt_20p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_20p_cpt_20p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_20p_cpt_20p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_20p_cpt_20p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_20p_cpt_20p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_20p_cpt_20p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_20p_cpt_20p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_20p_cpt_20p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_20p_cpt_20p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_20p_cpt_20p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_20p_cpt_20p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_20p_cpt_20p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_20p_cpt_20p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_20p_cpt_20p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_20p_cpt_20p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_20p_cpt_20p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_20p_cpt_20p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_20p_cpt_20p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_20p_cpt_20p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_20p_cpt_20p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_20p_cpt_20p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_20p_cpt_20p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM 20.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m2p_cpQM_30p_cpt_20p
+set ctZ -2.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m2p_cpQM_30p_cpt_20p
+set ctZ -1.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m2p_cpQM_30p_cpt_20p
+set ctZ 0.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m2p_cpQM_30p_cpt_20p
+set ctZ 1.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m2p_cpQM_30p_cpt_20p
+set ctZ 2.000000
+set ctZI -2.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_m1p_cpQM_30p_cpt_20p
+set ctZ -2.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_m1p_cpQM_30p_cpt_20p
+set ctZ -1.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_m1p_cpQM_30p_cpt_20p
+set ctZ 0.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_m1p_cpQM_30p_cpt_20p
+set ctZ 1.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_m1p_cpQM_30p_cpt_20p
+set ctZ 2.000000
+set ctZI -1.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_0p_cpQM_30p_cpt_20p
+set ctZ -2.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_0p_cpQM_30p_cpt_20p
+set ctZ -1.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpQM_30p_cpt_20p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_0p_cpQM_30p_cpt_20p
+set ctZ 1.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpQM_30p_cpt_20p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_1p_cpQM_30p_cpt_20p
+set ctZ -2.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_1p_cpQM_30p_cpt_20p
+set ctZ -1.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_1p_cpQM_30p_cpt_20p
+set ctZ 0.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_1p_cpQM_30p_cpt_20p
+set ctZ 1.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_1p_cpQM_30p_cpt_20p
+set ctZ 2.000000
+set ctZI 1.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m2p_ctZI_2p_cpQM_30p_cpt_20p
+set ctZ -2.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_m1p_ctZI_2p_cpQM_30p_cpt_20p
+set ctZ -1.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpQM_30p_cpt_20p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_1p_ctZI_2p_cpQM_30p_cpt_20p
+set ctZ 1.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt 20.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpQM_30p_cpt_20p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpQM 30.000000
+set cpt 20.000000
+
