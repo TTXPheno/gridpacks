@@ -524,7 +524,7 @@ make_gridpack () {
       # added to make extended run
 
       RWSEED=657343
-      RWNEVT=50000
+      RWNEVT=80000
       ./run.sh $RWNEVT $RWSEED
       mv $WORKDIR/process/madevent/Events/GridRun_${RWSEED}/"events.lhe.gz" $WORKDIR/"unweighted_events.lhe.gz"
 

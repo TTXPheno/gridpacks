@@ -32,12 +32,10 @@ import model dim6top_LO_UFO
 
 define p = g u c d s b u~ c~ d~ s~ b~
 define j = g u c d s b u~ c~ d~ s~ b~
-define l+ = e+ mu+ ta+
-define l- = e- mu- ta-
-define vl = ve vm vt
-define vl~ = ve~ vm~ vt~
+define l = e+ mu+ ta+ e- mu- ta-
+define vl = ve vm vt ve~ vm~ vt~
 define w = w+ w-
 
-generate p p > t t~ w DIM6<=1 
+generate p p > t t~ l vl DIM6<=1 
 
 output ttW0j_rwgt 
