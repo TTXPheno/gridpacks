@@ -1,6 +1,6 @@
 Available gridpacks, pkl files and STDOUTs stored at:  
 ```  
-/afs/hephy.at/data/llechner01/TTXPheno/gridpacks/  
+/afs/hephy.at/data/llechner01/TTXPheno/gridpacks/<date>/<process>/order<poly order>/  
 ```  
   
 ## List of available gridpacks:  
