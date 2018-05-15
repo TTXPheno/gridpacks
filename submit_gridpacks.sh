@@ -53,7 +53,7 @@ do
    ./make_customizecard.py --filename $PWD/$carddir/$name\_customizecards.dat --referencepoint $referencepoint
 
    # run gridpack generation
-#   ./submit_gridpack_generation.sh 30000 30000 $lxplus $name $carddir $lxplus $outputpath
+   ./submit_gridpack_generation.sh 30000 30000 $lxplus $name $carddir $lxplus $outputpath
 
 done
 

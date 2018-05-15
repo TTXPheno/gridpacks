@@ -30,7 +30,7 @@ def make_customize_card(filename, referencepoint, append=False):
         for i in range(0, len(referencepoint), 2):
             out_file.write("set param_card %s %8.6f\n" %( referencepoint[i], float(referencepoint[i+1])))
 
-    print "Written %i weights to file:"%len(referencepoint), filename
+    print "Written %i weights to file:"%int(len(referencepoint)/2), filename
 
 
 if type(args.filename) == list: args.filename = args.filename[0]
