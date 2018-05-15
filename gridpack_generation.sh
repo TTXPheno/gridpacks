@@ -42,8 +42,8 @@ make_tarball () {
 
     cp $CARDSDIR/${name}_reweight_card.pkl ${outputdir}/${name}_${scram_arch}_${cmssw_version}_tarball.pkl
 
-    if [ -e $CARDSDIR/${name}_FKS_params.dat ]; then
-        cp $CARDSDIR/${name}_FKS_params.dat ${outputdir}/${name}_${scram_arch}_${cmssw_version}_tarball.paramcard
+    if [ -e $CARDSDIR/${name}_customizecards.dat ]; then
+        cp $CARDSDIR/${name}_customizecards.dat ${outputdir}/${name}_${scram_arch}_${cmssw_version}_tarball.customizecard
     fi
 
     echo "Gridpack created successfully at ${outputdir}/${name}_${scram_arch}_${cmssw_version}_tarball.tar.xz"

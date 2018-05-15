@@ -47,10 +47,10 @@ do
    mkdir -p $outputpath
 
    # create reweight card
-   python make_reweight_card.py --overwrite --filename $PWD/$carddir/$name\_reweight_card.dat  --couplings $polyorder $operators # --referencepoint $referencepoint
+   ./make_reweight_card.py --overwrite --filename $PWD/$carddir/$name\_reweight_card.dat  --referencepoint $referencepoint --couplings $polyorder $operators
 
-   # create parameter card
-   #python addons/models/dim6top_LO_UFO/write_param_card.py --filename $PWD/$carddir/$name\_FKS_params.dat --referencepoint $referencepoint
+   # create customize card
+   ./make_customizecard.py --filename $PWD/$carddir/$name\_customizecards.dat --referencepoint $referencepoint
 
    # run gridpack generation
    ./submit_gridpack_generation.sh 30000 30000 $lxplus $name $carddir $lxplus $outputpath
