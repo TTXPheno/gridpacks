@@ -38,9 +38,15 @@ make_tarball () {
     if [ -e $CARDSDIR/${name}_externaltarball.dat ]; then
         EXTRA_TAR_ARGS="${name}_externaltarball.dat header_for_madspin.txt"
     fi
-    XZ_OPT="$XZ_OPT" tar -cJpsf ${PRODHOME}/${name}_${scram_arch}_${cmssw_version}_tarball.tar.xz mgbasedir process runcmsgrid.sh gridpack_generation*.log InputCards $EXTRA_TAR_ARGS
+    XZ_OPT="$XZ_OPT" tar -cJpsf ${outputdir}/${name}_${scram_arch}_${cmssw_version}_tarball.tar.xz mgbasedir process runcmsgrid.sh gridpack_generation*.log InputCards $EXTRA_TAR_ARGS
 
-    echo "Gridpack created successfully at ${PRODHOME}/${name}_${scram_arch}_${cmssw_version}_tarball.tar.xz"
+    cp $CARDSDIR/${name}_reweight_card.pkl ${outputdir}/${name}_${scram_arch}_${cmssw_version}_tarball.pkl
+
+    if [ -e $CARDSDIR/${name}_FKS_params.dat ]; then
+        cp $CARDSDIR/${name}_FKS_params.dat ${outputdir}/${name}_${scram_arch}_${cmssw_version}_tarball.paramcard
+    fi
+
+    echo "Gridpack created successfully at ${outputdir}/${name}_${scram_arch}_${cmssw_version}_tarball.tar.xz"
     echo "End of job"
 
     if [ "${BASH_SOURCE[0]}" != "${0}" ]; then return 0; else exit 0; fi
@@ -613,20 +619,23 @@ carddir=${2}
 queue=${3}
 
 # processing options
-jobstep=${4}
+outputdir=${4}
 
-if [ -n "$5" ]
+# processing options
+jobstep=${5}
+
+if [ -n "$6" ]
   then
-    scram_arch=${5}
+    scram_arch=${6}
   else
     scram_arch=slc6_amd64_gcc481
 # agrohsje
     scram_arch=slc6_amd64_gcc630
 fi
 
-if [ -n "$6" ]
+if [ -n "$7" ]
   then
-    cmssw_version=${6}
+    cmssw_version=${7}
   else
     cmssw_version=CMSSW_7_1_30
 # agrohsje

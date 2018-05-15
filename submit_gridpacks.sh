@@ -13,64 +13,49 @@
 ################################################################
 ################################################################
 
-# Output directory
-outputdir='../gridpacks_data'
-
 # declare states to analyze
 declare -a states=('ttZ' 'ttgamma' 'ttW')
+
+# polynomial order
+polyorder='3'
+
+# dim6 operators and stepsize as string
+operators='ctp 1 ctpI 1 cpQM 1 cpQ3 1 cpt 1 cptb 1 cptbI 1 ctW 1 ctWI 1 ctZ 1 ctZI 1 cbW 1 cbWI 1 ctG 1 ctGI 1'
+
+# set reference point
+referencepoint='ctW 4 ctWI 4 ctZ 4 ctZI 4 ctG 4 ctGI 4'
 
 # declare number of jets
 num_jets='0j'
 
-# declare polynomial order
-declare -a polyorders=(2 3)
-
 # lxplus GRID
 lxplus='2nw'
 
-# dim6 operators and stepsize as string <-- improve input later
-operators='cpQM 1 cpt 1 ctW 1 ctWI 1 ctZ 1 ctZI 1 ctG 1 ctGI 1'
-
-# file addons
-reweight_addon='_rwgt'
-card_addon='_reweight_card.dat'
-
 ################################################################
 
-mkdir -p $outputdir
-cd $outputdir
+export CMSSW_BASE=
+cd `dirname "$0"`
 
-# run all polynomial orders
-for polyorder in "${polyorders[@]}"
+for state in "${states[@]}"
 do
-   mkdir order_$polyorder
-   cd order_$polyorder
 
-   # run all states
-   for state in "${states[@]}"
-   do
-      mkdir $state
-      cd $state
+   name=$state$num_jets\_rwgt
+   carddir=addons/cards/$name/
 
-#      git clone https://github.com/TTXPheno/gridpacks.git
-      cp -rf ../../../gridpacks ./
+   # create output dir
+   outputpath=$PWD/output/$state/order$polyorder/
+   mkdir -p $outputpath
 
-      cd gridpacks
+   # create reweight card
+   python make_reweight_card.py --overwrite --filename $PWD/$carddir/$name\_reweight_card.dat  --referencepoint $referencepoint --couplings $polyorder $operators
 
-      # create reweight card
-      python make_reweight_card.py --overwrite --couplings $polyorder $operators
+   # create parameter card
+   python addons/models/dim6top_LO_UFO/write_param_card.py --filename $PWD/$carddir/$name\_FKS_params.dat --referencepoint $referencepoint
 
-      filename=$state$num_jets$reweight_addon$card_addon
-      dirname=$state$num_jets$reweight_addon
-      fullpath=addons/cards/$dirname/
+   # run gridpack generation
+   ./submit_gridpack_generation.sh 30000 30000 $lxplus $name $carddir $lxplus $outputpath
 
-      mv reweight_card.dat $fullpath/$filename
-
-      # submit job to lxplus
-      ./submit_gridpack_generation.sh 30000 30000 $lxplus $dirname $fullpath $lxplus
-
-      cd ../..
-   done
-
-   cd ..
 done
+
+
+
