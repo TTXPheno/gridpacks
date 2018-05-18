@@ -38,14 +38,23 @@ Available gridpacks, pkl files and STDOUTs stored at:
   
 ## List of available gridpacks:  
   
-### 08/05/2018  
-##### currently creating (finished ~10 days)  
+### 18/05/2018  
 
 | process  | poly order | # coeff | Wilson coefficients                                                                 | Link to gen. events |
 |:--------:|:----------:|:-------:|:-----------------------------------------------------------------------------------:|:------------------------:|
-| ttZ      | 3          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | not (yet) processed!  |
-| ttW      | 3          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | not (yet) processed!  |
-| ttgamma  | 3          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | not (yet) processed!  |
+| ttZ      | 2          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | currently processed!  |
+| ttW      | 2          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | currently processed!  |
+| ttgamma  | 2          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | currently processed!  |
+  
+##### Reference Point (directory 18052018_ref)
+Reference Point: ctW = 4., ctWI = 4., ctZ = 4., ctZI = 4., ctG = 4., ctGI = 4.  
+  
+| process  | poly order | # coeff | Wilson coefficients                                                                 | Link to gen. events |
+|:--------:|:----------:|:-------:|:-----------------------------------------------------------------------------------:|:------------------------:|
+| ttZ      | 2          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | currently processed!  |
+| ttW      | 2          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | currently processed!  |
+| ttgamma  | 2          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | currently processed!  |
+
   
   
 ### 07/05/2018  
