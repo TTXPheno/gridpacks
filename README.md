@@ -53,18 +53,18 @@ First try of 3rd order 15 WC gridpacks! Seems to run for now. Results in ~2 week
 
 | process  | poly order | # coeff | Wilson coefficients                                                                 | Link to gen. events |
 |:--------:|:----------:|:-------:|:-----------------------------------------------------------------------------------:|:------------------------:|
-| ttZ      | 2          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | currently processed!  |
-| ttW      | 2          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | currently processed!  |
-| ttgamma  | 2          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | currently processed!  |
+| ttZ      | 2          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | [1M ttZ events](https://cmsweb.cern.ch/das/request?input=%2FttZ0j_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-ttZ0j_order2_15weights_18052018-7a5fde3f5bf89006ee3acec926ca87d8%2FUSER&instance=prod%2Fphys03)  |
+| ttW      | 2          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | [1M ttW events](https://cmsweb.cern.ch/das/request?input=%2FttW0j_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-ttW0j_order2_15weights_18052018-593ea75549b4c51667dffc93040bbda1%2FUSER&instance=prod%2Fphys03)  |
+| ttgamma  | 2          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | [1M ttgamma events](https://cmsweb.cern.ch/das/request?input=%2Fttgamma0j_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-ttgamma0j_order2_15weights_18052018-10fcfa1a1c01204983ea66975abf2caf%2FUSER&instance=prod%2Fphys03)  |
   
 ##### Reference Point (directory 18052018_ref)
 Reference Point: ctW = 4., ctWI = 4., ctZ = 4., ctZI = 4., ctG = 4., ctGI = 4.  
   
 | process  | poly order | # coeff | Wilson coefficients                                                                 | Link to gen. events |
 |:--------:|:----------:|:-------:|:-----------------------------------------------------------------------------------:|:------------------------:|
-| ttZ      | 2          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | currently processed!  |
-| ttW      | 2          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | currently processed!  |
-| ttgamma  | 2          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | currently processed!  |
+| ttZ      | 2          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | [1M ttZ events](https://cmsweb.cern.ch/das/request?input=%2FttZ0j_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-ttZ0j_order2_15weights_18052018_ref-7a5fde3f5bf89006ee3acec926ca87d8%2FUSER&instance=prod%2Fphys03)  |
+| ttW      | 2          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | [1M ttW events](https://cmsweb.cern.ch/das/request?input=%2FttW0j_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-ttW0j_order2_15weights_18052018_ref-593ea75549b4c51667dffc93040bbda1%2FUSER&instance=prod%2Fphys03)  |
+| ttgamma  | 2          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | [1M ttgamma events](https://cmsweb.cern.ch/das/request?input=%2Fttgamma0j_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-ttgamma0j_order2_15weights_18052018_ref-10fcfa1a1c01204983ea66975abf2caf%2FUSER&instance=prod%2Fphys03)  |
 
   
   
