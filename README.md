@@ -38,17 +38,6 @@ Available gridpacks, pkl files and STDOUTs stored at:
   
 ## List of available gridpacks:  
   
-### 20/05/2018  
-Currently running!  
-First try of 3rd order 15 WC gridpacks! Seems to run for now. Results in ~2 weeks
-  
-| process  | poly order | # coeff | Wilson coefficients                                                                 | Link to gen. events |
-|:--------:|:----------:|:-------:|:-----------------------------------------------------------------------------------:|:------------------------:|
-| ttZ      | 3          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | not (yet) processed!  |
-| ttW      | 3          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | not (yet) processed!  |
-| ttgamma  | 3          | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | not (yet) processed!  |
-  
-  
 ### 18/05/2018  
 
 | process  | poly order | # coeff | Wilson coefficients                                                                 | Link to gen. events |
