@@ -17,7 +17,7 @@
 declare -a states=('ttZ' 'ttgamma' 'ttW')
 
 # polynomial order
-polyorder='3'
+polyorder='2'
 
 # dim6 operators and stepsize as string
 operators='ctp 1 ctpI 1 cpQM 1 cpQ3 1 cpt 1 cptb 1 cptbI 1 ctW 1 ctWI 1 ctZ 1 ctZI 1 cbW 1 cbWI 1 ctG 1 ctGI 1'
@@ -47,7 +47,7 @@ do
    mkdir -p $outputpath
 
    # create reweight card
-   ./make_reweight_card.py --overwrite --filename $PWD/$carddir/$name\_reweight_card.dat  --referencepoint $referencepoint --couplings $polyorder $operators
+   ./make_reweight_card.py --overwrite --filename $PWD/$carddir/$name\_reweight_card.dat --couplings $polyorder $operators
 
    # create customize card
    ./make_customizecard.py --filename $PWD/$carddir/$name\_customizecards.dat --referencepoint $referencepoint
