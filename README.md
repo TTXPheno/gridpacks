@@ -38,13 +38,25 @@ Available gridpacks, pkl files and STDOUTs stored at:
   
 ## List of available gridpacks:  
   
-### 04/06/2018  
-Background gridpacks
+### 05/06/2018  
+Background gridpacks (leptonic)  
+W > l nu  
+Z > l l  
+t > b W > b l nu  
 
 | process  | poly order | # coeff | Wilson coefficients                                                                 | Link to gen. events  |
 |:--------:|:----------:|:-------:|:-----------------------------------------------------------------------------------:|:--------------------:|
-| WZ      | 2           | 0       | no relevant WC                                                                      | [1M WZ events](https://cmsweb.cern.ch/das/request?input=%2FWZ_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_dim6top_04June18-a4eb1cf113188459e4c517c4aa52c31c%2FUSER&instance=prod%2Fphys03) | 
-| ttbar   | 2           | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | [1M ttbar events](https://cmsweb.cern.ch/das/request?input=%2Ftt_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_dim6top_04June18-db4155f01c4c21dc10125760597b536e%2FUSER&instance=prod%2Fphys03) | 
+| WZ (lep)     | 2           | 0       | no relevant WC                                                                      | [1M WZ events](https://cmsweb.cern.ch/das/request?input=%2FWZ_lep_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_lep_dim6top_05June18-6dade6042d6868e7bb87de85663e8a54%2FUSER&instance=prod%2Fphys03) | 
+| ttbar (lep)  | 2           | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI |  | 
+  
+  
+### 04/06/2018  
+Background gridpacks (hadronic + leptonic)
+
+| process  | poly order | # coeff | Wilson coefficients                                                                 | Link to gen. events  |
+|:--------:|:----------:|:-------:|:-----------------------------------------------------------------------------------:|:--------------------:|
+| WZ (all)     | 2           | 0       | no relevant WC                                                                      | [1M WZ events](https://cmsweb.cern.ch/das/request?input=%2FWZ_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_dim6top_04June18-a4eb1cf113188459e4c517c4aa52c31c%2FUSER&instance=prod%2Fphys03) | 
+| ttbar (all)  | 2           | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | [1M ttbar events](https://cmsweb.cern.ch/das/request?input=%2Ftt_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_dim6top_04June18-db4155f01c4c21dc10125760597b536e%2FUSER&instance=prod%2Fphys03) | 
   
   
 ### 18/05/2018  
