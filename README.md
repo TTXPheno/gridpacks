@@ -44,7 +44,7 @@ Background gridpacks
 | process  | poly order | # coeff | Wilson coefficients                                                                 | Link to gen. events  |
 |:--------:|:----------:|:-------:|:-----------------------------------------------------------------------------------:|:--------------------:|
 | WZ      | 2           | 0       | no relevant WC                                                                      | [1M WZ events](https://cmsweb.cern.ch/das/request?input=%2FWZ_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_dim6top_04June18-a4eb1cf113188459e4c517c4aa52c31c%2FUSER&instance=prod%2Fphys03) | 
-| ttbar   | 2           | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | processing | 
+| ttbar   | 2           | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | [1M ttbar events](https://cmsweb.cern.ch/das/request?input=%2Ftt_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_dim6top_04June18-db4155f01c4c21dc10125760597b536e%2FUSER&instance=prod%2Fphys03) | 
   
   
 ### 18/05/2018  
