@@ -47,7 +47,7 @@ do
    mkdir -p $outputpath
 
    # create reweight card
-   ./make_reweight_card.py --overwrite --filename $PWD/$carddir/$name\_reweight_card.dat --couplings $polyorder $operators
+   ./make_reweight_card.py --overwrite --filename $PWD/$carddir/$name\_reweight_card.dat --couplings $polyorder $operators --referencepoint $referencepoint
 
    # create customize card
    ./make_customizecard.py --filename $PWD/$carddir/$name\_customizecards.dat --referencepoint $referencepoint
