@@ -100,7 +100,7 @@ if len(args.couplings)>0 and isA( args.couplings[0], int ):
             for i_var, var in enumerate(vars):
                 count = comb.count(i_var)
                 val = count*stepsize[i_var]
-                if str(var) in referencepoint.keys(): val -= float(referencepoint[str(var)])
+#                if str(var) in referencepoint.keys(): val -= float(referencepoint[str(var)])
                 param_point+=(var, val)
             param_points.append( param_point )
     order_dict['order'] = int(args.couplings[0])
