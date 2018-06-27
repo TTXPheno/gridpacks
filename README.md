@@ -39,15 +39,26 @@ Available gridpacks, pkl files, customize cards and STDOUTs stored at:
 ```  
   
   
-### xx/06/2018  
-##### under construction!!!!  
-##### Reference Point (directory xx062018_ref)  
+### 27/06/2018  
+##### Reference Point (directory 27062018_ref)  
 4 Fermion WC gridpacks for 3rd gen quarks with 1st/2nd gen leps  
-Reference Point: ctW = 4., ctWI = 4., ctZ = 4., ctZI = 4., ctG = 4., ctGI = 4., cQe = 4., cQl31 = 4., cQlM1 = 4., ctl1 = 4., cte1 = 4., ctlS1 = 4., ctlSI1 = 4., ctlT1 = 4., ctlTI1 = 4., cblS1 = 4., cblSI1 = 4., cQl32 = 4., cQlM2 = 4., ctl2 = 4., cte2 = 4., ctlS2 = 4., ctlSI2 = 4., ctlT2 = 4., ctlTI2 = 4., cblS2 = 4., cblSI2 = 4.  
+Reference Point: ctW = 4., ctWI = 4., ctZ = 4., ctZI = 4., cQl31 = 4., cQlM1 = 4., ctlS1 = 4., ctlSI1 = 4., ctlT1 = 4., ctlTI1 = 4., cQl32 = 4., cQlM2 = 4., ctlS2 = 4., ctlSI2 = 4., ctlT2 = 4., ctlTI2 = 4.  
   
-| process  | poly order | # coeff | Wilson coefficients                                                                 | Link to gen. events |
-|:--------:|:----------:|:----:|:------------------------------------------------:|:--------------------:|
-| ttZ      | 2          | 29   | cpQM, cpt, ctW, ctWI, ctZ, ctZI, ctG, ctGI, cQe, cQl31, cQlM1, ctl1, cte1, ctlS1, ctlSI1, ctlT1, ctlTI1, cblS1, cblSI1, cQl32, cQlM2, ctl2, cte2, ctlS2, ctlSI2, ctlT2, ctlTI2, cblS2, cblSI2 | not (yet) processed  |
+| process  | poly order | # coeff | Wilson coefficients  | Link to gen. events |
+|:--------:|:----------:|:-------:|:--------------------:|:-------------------:|
+| ttZ      | 2          | 18      | cpQM, cpt, ctW, ctWI, ctZ, ctZI, cQl31, cQlM1, ctlS1, ctlSI1, ctlT1, ctlTI1, cQl32, cQlM2, ctlS2, ctlSI2, ctlT2, ctlTI2 | not (yet) processed  |
+  
+  
+### 26/06/2018  
+##### Reference Point (directory 26062018_ref)  
+4th order WC gridpacks  
+Reference Point: ctW = 4., ctWI = 4., ctZ = 4., ctZI = 4.  
+  
+| process  | poly order | # coeff | Wilson coefficients  | Link to gen. events |  
+|:--------:|:----------:|:-------:|:--------------------:|:-------------------:|  
+| ttZ      | 4          | 6       | cpQM, cpt, ctW, ctWI, ctZ, ctZI | not (yet) processed!  |  
+| ttW      | 4          | 6       | cpQM, cpt, ctW, ctWI, ctZ, ctZI | not (yet) processed!  |  
+| ttgamma  | 4          | 6       | cpQM, cpt, ctW, ctWI, ctZ, ctZI | not (yet) processed!  |  
   
   
 ### 14/06/2018  
