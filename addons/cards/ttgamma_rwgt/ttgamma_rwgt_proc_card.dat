@@ -30,14 +30,14 @@ set complex_mass_scheme False
 set max_npoint_for_channel 0
 import model dim6top_LO_UFO
 
-define p = p b b~ 
-define j = j b b~ 
+define p = g u c d s b u~ c~ d~ s~ b~
+define j = g u c d s b u~ c~ d~ s~ b~
 define l+ = e+ mu+ ta+
 define l- = e- mu- ta-
 define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
- 
-generate p p > l+ l- a DIM6=1
-add process p p > l+ l- j a DIM6=1
+define w = w+ w-
 
-output Zgamma_rwgt 
+generate p p > t t~ a DIM6=0 
+
+output ttgamma_rwgt 

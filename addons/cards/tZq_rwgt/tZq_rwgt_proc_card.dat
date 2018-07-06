@@ -41,7 +41,7 @@ define j = j b b~
 define wdecay = j l+ vl l- vl~
 define w = w+ w-
 
-generate p p > t j l+ l- DIM6<=1
-add process p p > t~ j l+ l- DIM6<=1
+generate p p > t j l+ l- DIM6=0
+add process p p > t~ j l+ l- DIM6=0
 
 output tZq_rwgt 
