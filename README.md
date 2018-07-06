@@ -39,6 +39,18 @@ Available gridpacks, pkl files, customize cards and STDOUTs stored at:
 ```  
   
   
+### 06/07/2018  
+Background gridpacks (leptonic)  
+W > l nu  
+Z > l l  
+t > b W > b l nu  
+
+| process  | poly order | # coeff | Wilson coefficients                                                                 | Link to gen. events  |
+|:--------:|:----------:|:-------:|:-----------------------------------------------------------------------------------:|:--------------------:|
+| WZ (lep)     | -           | 0       | no WC | [1M WZ events](https://cmsweb.cern.ch/das/request?input=%2FWZ_lep_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_lep_dim6top_05June18-6dade6042d6868e7bb87de85663e8a54%2FUSER&instance=prod%2Fphys03) | 
+| ttbar (lep)  | -           | 0       | no WC |  | 
+  
+  
 ### 27/06/2018  
 ##### Reference Point (directory 27062018_ref)  
 4 Fermion WC gridpacks for 3rd gen quarks with 1st/2nd gen leps  
@@ -72,14 +84,12 @@ Reference Point: ctZ = 4., ctZI = 4., cQl31 = 4., cQlM1 = 4., cQl32 = 4., cQlM2 
   
   
 ### 05/06/2018  
+##### Reference Point (directory 05062018_ref)  
 Background gridpacks (leptonic)  
-W > l nu  
-Z > l l  
 t > b W > b l nu  
 
 | process  | poly order | # coeff | Wilson coefficients                                                                 | Link to gen. events  |
 |:--------:|:----------:|:-------:|:-----------------------------------------------------------------------------------:|:--------------------:|
-| WZ (lep)     | 2           | 0       | no relevant WC                                                                      | [1M WZ events](https://cmsweb.cern.ch/das/request?input=%2FWZ_lep_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_lep_dim6top_05June18-6dade6042d6868e7bb87de85663e8a54%2FUSER&instance=prod%2Fphys03) | 
 | ttbar (lep)  | 2           | 15      | ctp, ctpI, cpQM, cpQ3, cpt, cptb, cptbI, ctW, ctWI, ctZ, ctZI, cbW, cbWI, ctG, ctGI | [1M ttbar events](https://cmsweb.cern.ch/das/request?input=%2Ftt_lep_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_lep_dim6top_05June18-399ed716eb7225402bb4416ff36fe4d6%2FUSER&instance=prod%2Fphys03) | 
   
   
