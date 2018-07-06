@@ -49,6 +49,11 @@ t > b W > b l nu
 |:--------:|:----------:|:-------:|:-----------------------------------------------------------------------------------:|:--------------------:|
 | WZ (lep)     | -           | 0       | no WC | [1M WZ events](https://cmsweb.cern.ch/das/request?input=%2FWZ_lep_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_lep_dim6top_05June18-6dade6042d6868e7bb87de85663e8a54%2FUSER&instance=prod%2Fphys03) | 
 | ttbar (lep)  | -           | 0       | no WC |  | 
+| tWZ          | -           | 0       | no WC |  | 
+| ttgamma      | -           | 0       | no WC |  | 
+| tZq          | -           | 0       | no WC |  | 
+| Zgamma       | -           | 0       | no WC |  | 
+| tW           | -           | 0       | no WC |  | 
   
   
 ### 27/06/2018  
