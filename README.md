@@ -41,9 +41,6 @@ Available gridpacks, pkl files, customize cards and STDOUTs stored at:
   
 ### 06/07/2018  
 Background gridpacks (leptonic)  
-W > l nu  
-Z > l l  
-t > b W > b l nu  
 
 | process  | poly order | # coeff | Wilson coefficients                                                                 | Link to gen. events  |
 |:--------:|:----------:|:-------:|:-----------------------------------------------------------------------------------:|:--------------------:|
