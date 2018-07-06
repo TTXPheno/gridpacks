@@ -1,0 +1,9 @@
+# reweight card file created with https://github.com/schoef/gridpacks on 2018-07-06 12:07:06
+# Command line arguments: ./make_reweight_card.py --overwrite --filename /afs/cern.ch/user/l/llechner/public/CMSSW_9_4_6_patch1/src/gridpacks_addbg_noref/addons/cards/tWZ_rwgt//tWZ_rwgt_reweight_card.dat --couplings
+# Polynomial order: None
+change rwgt_dir rwgt
+
+launch --rwgt_name=dummy # Name of first argument seems to be rwgt_1. Add dummy to fix it.
+
+launch --rwgt_name=
+
