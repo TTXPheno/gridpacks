@@ -1,0 +1,16 @@
+(dp0
+S'ref_point'
+p1
+(dp2
+sS'rw_dict'
+p3
+(dp4
+S''
+p5
+I0
+ssS'order'
+p6
+(dp7
+g6
+I2
+ss.
