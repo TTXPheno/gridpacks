@@ -37,7 +37,7 @@ define l- = e- mu- ta-
 define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
  
-generate p p > l+ l- a DIM6=1
-add process p p > l+ l- j a DIM6=1
+generate p p > l+ l- a DIM6=0
+add process p p > l+ l- j a DIM6=0
 
 output Zgamma_rwgt 
