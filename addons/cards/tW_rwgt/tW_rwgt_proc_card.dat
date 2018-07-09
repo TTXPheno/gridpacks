@@ -37,9 +37,6 @@ define l- = e- mu- ta-
 define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
 
-generate p p > t w- l+ l- /h @0
-add process p p > t~ w+ l+ l- /h @1
-
 generate p p > t l- vl~ DIM6=0
 add process p p > t~ l+ vl DIM6=0
 
