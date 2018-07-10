@@ -39,6 +39,6 @@ define vl~ = ve~ vm~ vt~
 define w = w+ w-
 
 generate p p > t t~, (t > w+ b, w+ > l+ vl) DIM6=0 
-add process p > t t~, (t~ > w- b~, w- > l- vl~) DIM6=0 
+add process p p > t t~, (t~ > w- b~, w- > l- vl~) DIM6=0 
 
 output tt_semilep_rwgt 
