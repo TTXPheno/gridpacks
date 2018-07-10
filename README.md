@@ -44,13 +44,14 @@ Background gridpacks (leptonic)
 
 | process  | poly order | # coeff | Wilson coefficients                                                                 | Link to gen. events  |
 |:--------:|:----------:|:-------:|:-----------------------------------------------------------------------------------:|:--------------------:|
-| WZ (lep)     | -           | 0       | no WC | [1M WZ events](https://cmsweb.cern.ch/das/request?input=%2FWZ_lep_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_lep_dim6top_05June18-6dade6042d6868e7bb87de85663e8a54%2FUSER&instance=prod%2Fphys03) | 
+| WZ (lep)     | -           | 0       | no WC | [1M WZ events](https://cmsweb.cern.ch/das/request?input=%2FWZ_lep_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_dim6top_06July18-6dade6042d6868e7bb87de85663e8a54%2FUSER&instance=prod%2Fphys03) | 
 | ttbar (lep)  | -           | 0       | no WC | [1M ttbar events](https://cmsweb.cern.ch/das/request?input=%2Ftt_lep_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_lep_dim6top_06July18-399ed716eb7225402bb4416ff36fe4d6%2FUSER&instance=prod%2Fphys03) | 
-| tWZ          | -           | 0       | no WC | [1M tWZ events](https://cmsweb.cern.ch/das/request?input=%2FtWZ_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_lep_dim6top_06July18-083eb65e1bdfcfc8fcf3d4f572bc27da%2FUSER&instance=prod%2Fphys03) | 
+| ttbar (semilep)  | -           | 0       | no WC | [1M ttbar events](https://cmsweb.cern.ch/das/request?input=%2Ftt_semilep_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_dim6top_06July18-61f6d1f3cc6e0e3d29066ed21db166d3%2FUSER&instance=prod%2Fphys03) | 
+| tWZ          | -           | 0       | no WC | [1M tWZ events](https://cmsweb.cern.ch/das/request?input=%2FtWZ_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_dim6top_06July18-083eb65e1bdfcfc8fcf3d4f572bc27da%2FUSER&instance=prod%2Fphys03) | 
 | ttgamma      | -           | 0       | no WC | [1M ttgamma events](https://cmsweb.cern.ch/das/request?input=%2Fttgamma_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_lep_dim6top_06July18-7c92494a0b9e35a525af35a2e83e005b%2FUSER&instance=prod%2Fphys03) | 
 | tZq          | -           | 0       | no WC | [1M tZq events](https://cmsweb.cern.ch/das/request?input=%2FtZq_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_lep_dim6top_06July18-622c407898c13833e0c43092e83c38c5%2FUSER&instance=prod%2Fphys03) | 
-| Zgamma       | -           | 0       | no WC | [1M Zgamma events](https://cmsweb.cern.ch/das/request?input=%2FZgamma_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_lep_dim6top_06July18-d4a3491b99ce351d59c2f3c59adf0bd3%2FUSER&instance=prod%2Fphys03) | 
-| tW           | -           | 0       | no WC | [1M tW events](https://cmsweb.cern.ch/das/request?input=%2FtW_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_lep_dim6top_06July18-c93c9d5de5b5d5ea926359481176f094%2FUSER&instance=prod%2Fphys03) | 
+| Zgamma       | -           | 0       | no WC | [1M Zgamma events](https://cmsweb.cern.ch/das/request?input=%2FZgamma_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_dim6top_06July18-d4a3491b99ce351d59c2f3c59adf0bd3%2FUSER&instance=prod%2Fphys03) | 
+| tW           | -           | 0       | no WC | [1M tW events](https://cmsweb.cern.ch/das/request?input=%2FtW_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-bg_dim6top_06July18-c93c9d5de5b5d5ea926359481176f094%2FUSER&instance=prod%2Fphys03) | 
   
   
 ### 27/06/2018  
