@@ -38,7 +38,7 @@ define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
 define w = w+ w-
 
-generate p p > t t~ a, (t > l+ vl b), (t~ > j j b~) DIM6<=1
-add process p p > t t~ a, (t > j j b), (t~ > l- vl~ b~) DIM6<=1
+generate p p > t t~ a DIM6<=1, (t > l+ vl b), (t~ > j j b~)
+add process p p > t t~ a DIM6<=1, (t > j j b), (t~ > l- vl~ b~)
 
 output ttgamma1l_rwgt 
