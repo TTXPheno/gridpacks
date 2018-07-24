@@ -38,9 +38,9 @@ define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
 define w = w+ w-
 
-generate p p > t t~, (t > j j b a), (t~ > l- vl~ b~) DIM6=0 
-add process p p > t t~, (t > j j b), (t~ > l- vl~ b~ a) DIM6=0 
-add process p p > t t~, (t > l+ vl b a), (t~ > j j b~) DIM6=0 
-add process p p > t t~, (t > l+ vl b), (t~ > j j b~ a) DIM6=0 
+generate p p > t t~, (t > j j b a $$ t), (t~ > l- vl~ b~) DIM6=0 
+add process p p > t t~, (t > j j b), (t~ > l- vl~ b~ a $$ t~) DIM6=0 
+add process p p > t t~, (t > l+ vl b a $$ t), (t~ > j j b~) DIM6=0 
+add process p p > t t~, (t > l+ vl b), (t~ > j j b~ a $$ t~) DIM6=0 
 
 output tt1l_rwgt 
