@@ -38,6 +38,49 @@ Available gridpacks, pkl files, customize cards and STDOUTs stored at:
 /afs/hephy.at/data/llechner01/TTXPheno/gridpacks/<date>/<process>/order<poly order>/  
 ```  
   
+### 31/07/2018  TC
+##### Run Card changed! (directory 31072018_TC)  
+tt gridpacks for semi-/di-leptonic cases    
+Run Card according to Tom Cornelis (TC)! Talk given in Top Properties on March 7th 2018  
+Run Card stored in the gridpack directory  
+  
+| process  | poly order | # coeff | Wilson coefficients  | Link to gen. events  |  
+|:--------:|:----------:|:-------:|:--------------------:|:--------------------:|  
+| ttbar 1l   | -           | 0       | no WC | not (yet) processed! |  
+| ttbar 2l   | -           | 0       | no WC | not (yet) processed! |  
+  
+  
+### 31/07/2018  TC
+##### Run Card changed! (directory 31072018_TC)  
+ttgamma gridpacks for semi-/di-leptonic cases    
+Run Card according to Tom Cornelis (TC)! Talk given in Top Properties on March 7th 2018  
+Run Card stored in the gridpack directory  
+Reference Point: ctW = 4., ctWI = 4., ctZ = 4., ctZI = 4., ctG = 4., ctGI = 4.  
+
+| process  | poly order | # coeff | Wilson coefficients  | Link to gen. events  |  
+|:--------:|:----------:|:-------:|:--------------------:|:--------------------:|  
+| ttgamma 1l | 2          | 8       | cpQM, cpt, ctW, ctWI, ctZ, ctZI, ctG, ctGI | not (yet) processed!  |
+| ttgamma 2l | 2          | 8       | cpQM, cpt, ctW, ctWI, ctZ, ctZI, ctG, ctGI | not (yet) processed!  |
+  
+  
+### 31/07/2018  
+tt gridpacks for semi-/di-leptonic cases    
+
+| process  | poly order | # coeff | Wilson coefficients  | Link to gen. events  |  
+|:--------:|:----------:|:-------:|:--------------------:|:--------------------:|  
+| ttbar 1l   | -           | 0       | no WC | not (yet) processed! |  
+| ttbar 2l   | -           | 0       | no WC | not (yet) processed! |  
+  
+  
+### 31/07/2018  
+ttgamma gridpacks for semi-/di-leptonic cases    
+Reference Point: ctW = 4., ctWI = 4., ctZ = 4., ctZI = 4., ctG = 4., ctGI = 4.  
+
+| process  | poly order | # coeff | Wilson coefficients  | Link to gen. events  |  
+|:--------:|:----------:|:-------:|:--------------------:|:--------------------:|  
+| ttgamma 1l | 2          | 8       | cpQM, cpt, ctW, ctWI, ctZ, ctZI, ctG, ctGI | not (yet) processed!  |
+| ttgamma 2l | 2          | 8       | cpQM, cpt, ctW, ctWI, ctZ, ctZI, ctG, ctGI | not (yet) processed!  |
+  
   
 ### 06/07/2018  
 Background gridpacks (leptonic)  
