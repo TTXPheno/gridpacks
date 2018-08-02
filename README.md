@@ -59,8 +59,8 @@ Reference Point: ctW = 4., ctWI = 4., ctZ = 4., ctZI = 4., ctG = 4., ctGI = 4.
 
 | process  | poly order | # coeff | Wilson coefficients  | Link to gen. events  |  
 |:--------:|:----------:|:-------:|:--------------------:|:--------------------:|  
-| ttgamma 1l | 2          | 8       | cpQM, cpt, ctW, ctWI, ctZ, ctZI, ctG, ctGI | not (yet) processed!  |
-| ttgamma 2l | 2          | 8       | cpQM, cpt, ctW, ctWI, ctZ, ctZI, ctG, ctGI | not (yet) processed!  |
+| ttgamma 1l | 2          | 8       | cpQM, cpt, ctW, ctWI, ctZ, ctZI, ctG, ctGI | [1M ttgamma1l events](https://cmsweb.cern.ch/das/request?input=%2Fttgamma1l_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-ttTC_dim6top_31July18-7211d47a05942de63b96d242b817a8bb%2FUSER&instance=prod%2Fphys03) |
+| ttgamma 2l | 2          | 8       | cpQM, cpt, ctW, ctWI, ctZ, ctZI, ctG, ctGI | [1M ttgamma2l events](https://cmsweb.cern.ch/das/request?input=%2Fttgamma2l_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-ttTC_dim6top_31July18-0a43f57f51d88147b253bdf1fa82c508%2FUSER&instance=prod%2Fphys03) |
   
   
 ### 31/07/2018  
