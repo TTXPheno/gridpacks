@@ -37,18 +37,15 @@ Available gridpacks, pkl files, customize cards and STDOUTs stored at:
 ```  
 /afs/hephy.at/data/llechner01/TTXPheno/gridpacks/<date>/<process>/order<poly order>/  
 ```  
+   
   
-### 31/07/2018  TC
-##### Run Card changed! (directory 31072018_TC)  
-tt gridpacks for semi-/di-leptonic cases    
-Run Card according to Tom Cornelis (TC)! Talk given in Top Properties on March 7th 2018  
-Run Card stored in the gridpack directory  
-  
-| process  | poly order | # coeff | Wilson coefficients  | Link to gen. events  |  
-|:--------:|:----------:|:-------:|:--------------------:|:--------------------:|  
-| ttbar 1l   | -           | 0       | no WC | not (yet) processed! |  
-| ttbar 2l   | -           | 0       | no WC | not (yet) processed! |  
-  
+### 13/08/2018  
+large full ttbar sample
+
+| process  | poly order | # coeff | Wilson coefficients     | Link to gen. events  |
+|:--------:|:----------:|:-------:|:-----------------------:|:--------------------:|
+| tt_full  | -           | 0       | no WC                  | [10M WZ events](https://cmsweb.cern.ch/das/request?input=%2Ftt_full_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-tt_dim6top_13Aug18-c2f0c52481627e66edabf074e5458056%2FUSER&instance=prod%2Fphys03) | 
+   
   
 ### 31/07/2018  TC
 ##### Run Card changed! (directory 31072018_TC)  
@@ -61,15 +58,6 @@ Reference Point: ctW = 4., ctWI = 4., ctZ = 4., ctZI = 4., ctG = 4., ctGI = 4.
 |:--------:|:----------:|:-------:|:--------------------:|:--------------------:|  
 | ttgamma 1l | 2          | 8       | cpQM, cpt, ctW, ctWI, ctZ, ctZI, ctG, ctGI | [1M ttgamma1l events](https://cmsweb.cern.ch/das/request?input=%2Fttgamma1l_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-ttTC_dim6top_31July18-7211d47a05942de63b96d242b817a8bb%2FUSER&instance=prod%2Fphys03) |
 | ttgamma 2l | 2          | 8       | cpQM, cpt, ctW, ctWI, ctZ, ctZI, ctG, ctGI | [1M ttgamma2l events](https://cmsweb.cern.ch/das/request?input=%2Fttgamma2l_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-ttTC_dim6top_31July18-0a43f57f51d88147b253bdf1fa82c508%2FUSER&instance=prod%2Fphys03) |
-  
-  
-### 31/07/2018  
-tt gridpacks for semi-/di-leptonic cases    
-
-| process  | poly order | # coeff | Wilson coefficients  | Link to gen. events  |  
-|:--------:|:----------:|:-------:|:--------------------:|:--------------------:|  
-| ttbar 1l   | -           | 0       | no WC | not (yet) processed! |  
-| ttbar 2l   | -           | 0       | no WC | not (yet) processed! |  
   
   
 ### 31/07/2018  
