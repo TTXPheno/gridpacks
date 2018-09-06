@@ -1,5 +1,4 @@
 #!/bin/bash                                                                                                                                                                                                        
-
 SETUPTAG=( gluontop_rwgt ) 
 MODEL=dim6top_LO_UFO
 NSETUPTAG=`echo "scale=0; ${#SETUPTAG[@]} -1 " | bc`
