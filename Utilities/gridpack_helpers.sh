@@ -64,13 +64,13 @@ prepare_reweight () {
     scram_arch=$3
     reweight_card=$4
 
-    if ! cat $reweight_card | grep -q -e "change rwgt_dir \(\.\/\)\?rwgt"; then
-        echo "ERROR: Reweight card must contain the line"
-        echo "    'change rwgt_dir ./rwgt'"
-        echo "Refer to examples in genproductions repository."
-        echo "Exciting..."
-        exit 1
-    fi
+#    if ! cat $reweight_card | grep -q -e "change rwgt_dir \(\.\/\)\?rwgt"; then
+#        echo "ERROR: Reweight card must contain the line"
+#        echo "    'change rwgt_dir ./rwgt'"
+#        echo "Refer to examples in genproductions repository."
+#        echo "Exciting..."
+#        exit 1
+#    fi
 
     cd $WORKDIR/process
     echo "preparing reweighting step"
