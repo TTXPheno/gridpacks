@@ -37,7 +37,27 @@ Available gridpacks, pkl files, customize cards and STDOUTs stored at:
 ```  
 /afs/hephy.at/data/llechner01/TTXPheno/gridpacks/<date>/<process>/order<poly order>/  
 ```  
-   
+### 08/09/2018  
+##### Reference Point, dim6 <= 2  
+4th order WC gridpacks  
+Reference Point: ctZ = 4., ctZI = 4.  
+  
+| process  | poly order | # coeff | Wilson coefficients  | Link to gen. events |  
+|:--------:|:----------:|:-------:|:--------------------:|:-------------------:|  
+| ttZ      | 4          | 4       | cpQM, cpt, ctZ, ctZI | [1M ttZ events](https://cmsweb.cern.ch/das/request?input=%2FttZ0j_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-order4_2WC_dim6top_07Sept18-24fb8f969b27e1221b16d43d608d0cfc%2FUSER&instance=prod%2Fphys03)  |  
+| ttgamma  | 4          | 4       | cpQM, cpt, ctZ, ctZI | [1M ttgamma events](https://cmsweb.cern.ch/das/request?input=%2Fttgamma0j_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-order4_2WC_dim6top_07Sept18-1ec53e9e153e4c10ba0f5a8b04e170ac%2FUSER&instance=prod%2Fphys03)  |  
+
+### 07/09/2018  
+##### Reference Point, model ewkDMGZ_UFO, NP <= 1  
+4th order WC gridpacks  
+Reference Point ttZ: D2CV = 4., D2CA = 4.  
+Reference Point ttgamma: DAG = 4., DVG = 4.  
+
+| process  | poly order | # coeff | Wilson coefficients  | Link to gen. events |  
+|:--------:|:----------:|:-------:|:--------------------:|:-------------------:|  
+| ttZ      | 4          | 4       | D1CV, D1CA, D2CV, D2CA | [1M ttZ events](https://cmsweb.cern.ch/das/request?input=%2FttZ0j_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-order4_ewkDMGZ_08Sept18-24fb8f969b27e1221b16d43d608d0cfc%2FUSER&instance=prod%2Fphys03)  |  
+| ttgamma  | 4          | 2       | DAG, DVG               | [1M ttgamma events](https://cmsweb.cern.ch/das/request?input=%2Fttgamma0j_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-order4_ewkDMGZ_08Sept18-1ec53e9e153e4c10ba0f5a8b04e170ac%2FUSER&instance=prod%2Fphys03)  |  
+
   
 ### 13/08/2018  
 large full ttbar sample
