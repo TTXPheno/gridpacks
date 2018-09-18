@@ -112,7 +112,7 @@ Reference Point: ctW = 4., ctWI = 4., ctZ = 4., ctZI = 4., cQl31 = 4., cQlM1 = 4
   
 | process  | poly order | # coeff | Wilson coefficients  | Link to gen. events |
 |:--------:|:----------:|:-------:|:--------------------:|:-------------------:|
-| ttZ      | 2          | 18      | cpQM, cpt, ctW, ctWI, ctZ, ctZI, cQl31, cQlM1, ctlS1, ctlSI1, ctlT1, ctlTI1, cQl32, cQlM2, ctlS2, ctlSI2, ctlT2, ctlTI2 | not (yet) processed  |
+| ttZ      | 2          | 18      | cpQM, cpt, ctW, ctWI, ctZ, ctZI, cQl31, cQlM1, ctlS1, ctlSI1, ctlT1, ctlTI1, cQl32, cQlM2, ctlS2, ctlSI2, ctlT2, ctlTI2 | [1M ttZ events](https://cmsweb.cern.ch/das/request?input=%2FttZ0j_rwgt_slc6_amd64_gcc630_CMSSW_9_3_0_tarball%2Fllechner-order2_ttZ_4fermion_27Junet18-24fb8f969b27e1221b16d43d608d0cfc%2FUSER&instance=prod%2Fphys03)  |
   
   
 ### 26/06/2018  
