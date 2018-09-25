@@ -14,22 +14,23 @@
 ################################################################
 
 # declare states to analyze
-declare -a states=('ttZ' 'ttgamma' 'ttW')
+#declare -a states=('ttGamma_Dilept_5f_ckm_LO')
+declare -a states=('ttGamma_SingleLeptFromTbar_5f_ckm_LO' 'ttGamma_SingleLeptFromT_5f_ckm_LO' 'ttGammaHadronic_5f_ckm_LO')
 
 # polynomial order
 polyorder='2'
 
 # dim6 operators and stepsize as string
-operators='ctp 1 ctpI 1 cpQM 1 cpQ3 1 cpt 1 cptb 1 cptbI 1 ctW 1 ctWI 1 ctZ 1 ctZI 1 cbW 1 cbWI 1 ctG 1 ctGI 1'
+operators='ctW 1 ctWI 1 ctZ 1 ctZI 1'
 
 # set reference point
-referencepoint='ctW 4 ctWI 4 ctZ 4 ctZI 4 ctG 4 ctGI 4'
+referencepoint='ctW 4 ctWI 4 ctZ 4 ctZI 4'
 
 # declare number of jets
-num_jets='0j'
+num_jets=''
 
 # lxplus GRID
-lxplus='2nw'
+lxplus='1nw'
 
 ################################################################
 

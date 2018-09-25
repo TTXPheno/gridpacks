@@ -24,6 +24,7 @@ def make_customize_card(filename, referencepoint, append=False):
             out_file.write("# Command line arguments: "+" ".join(sys.argv)+'\n')
             out_file.write("# Reference Point: "+" ".join(referencepoint)+'\n')
             out_file.write("set param_card mass 6 172.5\n")
+	    out_file.write("set param_card mass 25 125.0\n")
             out_file.write("set param_card yukawa 6 172.5\n")
             out_file.write("set param_card decay 6 auto\n")
     with open(filename, "a") as out_file:
