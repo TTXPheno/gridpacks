@@ -1,7 +1,7 @@
+import model dim6top_LO_UFO
 #import model sm-ckm_no_b_mass
 #switch to non-diagonal ckm matrix if relevant
 #import model loop_sm-no_b_mass
-import model dim6top_LO_UFO
 
 #include b quark in proton and jet definition for consistent 5 flavour scheme treatment
 define p = p b b~
@@ -9,8 +9,8 @@ define j = j b b~
 #define hadronic decays
 define part =  u c d s u~ c~ d~ s~
 
-generate p p > t t~ a DIM6<=1, t > b part part, t~ > b~ part part
-add process p p > t t~, t > b part part a DIM6<=1, t~ > b~ part part
-add process p p > t t~, t > b part part, t~ > b~ part part a DIM6<=1
+generate p p > t t~ a DIM6=1, (t > b part part DIM6=0), (t~ > b~ part part DIM6=0) @1
+add process p p > t t~ DIM6=0, (t > b part part a $$t DIM6=0), (t~ > b~ part part DIM6=0) @2
+add process p p > t t~ DIM6=0, (t > b part part DIM6=0), (t~ > b~ part part a $$t~ DIM6=0) @3
 
 output ttGammaHadronic_5f_ckm_LO_rwgt -nojpeg
