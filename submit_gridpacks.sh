@@ -15,22 +15,23 @@
 
 # declare states to analyze
 #declare -a states=('ttGamma_Dilept_5f_ckm_LO')
-declare -a states=('ttGamma_SingleLeptFromTbar_5f_ckm_LO' 'ttGamma_SingleLeptFromT_5f_ckm_LO' 'ttGammaHadronic_5f_ckm_LO')
+#declare -a states=('ttGamma_SingleLeptFromTbar_5f_ckm_LO' 'ttGamma_SingleLeptFromT_5f_ckm_LO' 'ttGammaHadronic_5f_ckm_LO')
+declare -a states=('gg_ttGG' 'gg_ttZZ' 'gg_ttZG')
 
 # polynomial order
-polyorder='2'
+polyorder='4'
 
 # dim6 operators and stepsize as string
-operators='ctW 1 ctWI 1 ctZ 1 ctZI 1'
+operators='cpQM 1 cpt 1 ctZ 1'
 
 # set reference point
-referencepoint='ctW 4 ctWI 4 ctZ 4 ctZI 4'
+referencepoint='ctZ 4'
 
 # declare number of jets
 num_jets=''
 
 # lxplus GRID
-lxplus='1nw'
+lxplus='local'
 
 ################################################################
 
@@ -54,8 +55,8 @@ do
    ./make_customizecard.py --filename $PWD/$carddir/$name\_customizecards.dat --referencepoint $referencepoint
 
    # run gridpack generation
+   echo "No submission because lxbatch is OFF"
    ./submit_gridpack_generation.sh 30000 30000 $lxplus $name $carddir $lxplus $outputpath
-
 done
 
 

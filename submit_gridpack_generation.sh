@@ -15,4 +15,4 @@ if [ -z ${outputdir} ]; then
   outputdir=`pwd`
 fi
 
-bsub -q ${masterqueue} -C 0 -J ${name} -R "rusage[mem=${memory}:pool=${diskspace}]" "export PRODHOME=`pwd`; gridpack_generation.sh ${name} ${carddir} ${workqueue} ${outputdir} ${jobstep} ${scram_arch} ${cmssw_version}"
+echo bsub -q ${masterqueue} -C 0 -J ${name} -R "rusage[mem=${memory}:pool=${diskspace}]" "export PRODHOME=`pwd`; gridpack_generation.sh ${name} ${carddir} ${workqueue} ${outputdir} ${jobstep} ${scram_arch} ${cmssw_version}"

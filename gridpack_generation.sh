@@ -693,7 +693,7 @@ if  [ "${jobstep}" == "MADSPIN" ]; then
 fi
 
 #For correct running you should place at least the run and proc card in a folder under the name "cards" in the same folder where you are going to run the script
-RUNHOME=`pwd`
+RUNHOME=`pwd`/temporary_running_2
 LOGFILE=${RUNHOME}/${name}.log
 LOGFILE_NAME=${LOGFILE/.log/}
 
